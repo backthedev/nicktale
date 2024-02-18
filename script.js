@@ -3,5 +3,5 @@ function copiarTexto() {
   texto.focus();
   document.execCommand('selectAll');
   document.execCommand('copy');
-  alert("¡Texto copiado!");
+  alert("¡IP copiada, disfruta!");
 }
