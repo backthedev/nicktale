@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    margin-top: 30px;
+    justify-content: right;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url(green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav a {
+    font-family: Kode Mono, Helvetica, sans-serif;
+    position: relative;
+    font-size: 1.2em;
+    color: gray;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: .5s;
+  }
+  
+  nav a:hover {
+    color: #3fe246;
+  }
+  
+  nav a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid #3fe246;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 0;
+    transition: .5s;
+  }
+  
+  nav a:hover span {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  
+  .container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .logo {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  
+  h3 {
+    font-size: 2em;
+  }
+  
+  .modp {
+    border: 5px solid #3fe246;
+    font-family: Kode Mono, Helvetica, sans-serif;
+    color: white;
+    border-radius: 35px;
+    padding: 47px;
+    text-align: center;
+    width: 250px;
+    left: 0;
+    margin-left: 40px;
+    margin-top: 150px;
+    position: absolute;
+  }
+  
+  .button {
+    min-width: 130px;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    padding: 6px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #3fe246;
+    background: #3fe246;
+  }
+  
+  .button:hover {
+    background: #fff;
+    color: #3fe246
+  }
+
+
+
+  .rangos {
+    border: 5px solid #3fe246;
+    font-family: Kode Mono, Helvetica, sans-serif;
+    color: white;
+    border-radius: 35px;
+    padding: 49px;
+    text-align: center;
+    width: 250px;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 150px;
+    position: absolute;
+  }
+  
+  .buttonrangos {
+    min-width: 130px;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    padding: 6px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #3fe246;
+    background: #3fe246;
+  }
+  
+  .buttonrangos:hover {
+    background: #fff;
+    color: #3fe246
+  }
+
+
+
+  .about {
+    border: 5px solid #3fe246;
+    font-family: Kode Mono, Helvetica, sans-serif;
+    color: white;
+    border-radius: 35px;
+    padding: 30px;
+    text-align: center;
+    width: 720px;
+    height: auto;
+    left: 0;
+    margin-left: 660px;
+    margin-top: 150px;
+    position: absolute;
+  }
