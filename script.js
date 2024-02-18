@@ -1,7 +1,10 @@
 function copiarTexto() {
   var texto = document.getElementById("textoACopiar");
-  texto.focus();
-  document.execCommand('selectAll');
+  var input = document.createElement('input');
+  input.setAttribute('value', texto.textContent);
+  document.body.appendChild(input);
+  input.select();
   document.execCommand('copy');
-  alert("¡IP copiada, disfruta!");
+  document.body.removeChild(input);
+  alert("¡Texto copiado!");
 }
